@@ -107,7 +107,7 @@ The response that API Gateway provides after a method's backend completes proces
 
 `PassthroughBehavior`  <a name="cfn-apigateway-method-integration-passthroughbehavior"></a>
 Indicates when API Gateway passes requests to the targeted backend\. This behavior depends on the request's `Content-Type` header and whether you defined a mapping template for it\.  
-For more information and valid values, see the [passthroughBehavior](https://docs.aws.amazon.com/apigateway/api-reference/link-relation/integration-put/#passthroughBehavior) field in the *API Gateway API Reference*\.  
+For more information and valid values, see the [passthroughBehavior](https://docs.aws.amazon.com/apigateway/latest/developerguide/integration-passthrough-behaviors.html) field in the *API Gateway API Reference*\.  
 *Required*: No  
 *Type*: String  
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
